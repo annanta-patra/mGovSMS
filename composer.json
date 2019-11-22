@@ -1,6 +1,8 @@
 {
     "name": "uithread/mgov-sms",
     "description": "SMS gateway package for mgov",
+    "keywords": ["mgov","mgov sms", "SMS"],
+    "homepage": "https://github.com/annanta-patra/mGovSMS",
     "license": "MIT",
     "authors": [
         {
