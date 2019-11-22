@@ -1,0 +1,17 @@
+{
+    "name": "uithread/mgov-sms",
+    "description": "SMS gateway package for mgov",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Annanta Kumar Patra",
+            "email": "annanta.patra@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Uithread\\MgovSMS\\": "src/"
+        }
+    }
+}
