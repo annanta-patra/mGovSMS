@@ -41,17 +41,13 @@ Laravel mGovSMS Intergation package is for your Laravel or Lumen application. It
 
 2. Register the package
     Register the package, add the ServiceProvider in config/app.php:
-    /*
-     * Package Service Providers...
-     */
+```php   
     Uithread\MgovSMS\MgovSMSServiceProvider::class,
-
+```
     Add the Facade in config/app.php
-    /*
-     * Package Service Providers...
-     */
-    'MgovSMS' => Uithread\MgovSMS\MgovSMSFacade::class,
-
+```php    
+    'MgovSMS' => Uithread\MgovSMS\Facades\MgovSMSFacade::class,
+```
 
 4. Publish the packages config file and migration files by running the following from your projects root folder:
 
