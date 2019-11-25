@@ -15,5 +15,15 @@
         "psr-4": {
             "Uithread\\MgovSMS\\": "src/"
         }
-    }
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Uithread\\MgovSMS\\MgovSMSServiceProvider"
+			],
+			"aliases": {
+				"MgovSMS": "Uithread\\MgovSMS\\MgovSMSFacade"
+			}
+		}
+	}
 }
