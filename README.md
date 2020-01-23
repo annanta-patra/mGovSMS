@@ -61,6 +61,21 @@ Laravel mGovSMS Intergation package is for your Laravel or Lumen application. It
     php artisan migrate
 ```
 
+4. To send SMS use below method:
+
+```php
+      use MgovSMS;
+     
+      MgovSMS::sendSingleSMS('MESSAGE Hello World!', '99########');
+      MgovSMS::sendOtpSMS('MESSAGE Hello World!', '99########');
+      MgovSMS::sendBulkSMS('MESSAGE Hello World!', '99########,98########');
+      MgovSMS::sendSingleUnicode('MESSAGE Hello World!', '99########');
+      MgovSMS::sendUnicodeOtpSMS('MESSAGE Hello World!', '99########');
+      MgovSMS::sendBulkUnicode('MESSAGE Hello World!', '99########,98########');
+      
+```
+
+
 ### Configuration
 Laravel mGovSMS is configured in directly in `/config/mgov-sms.php`.
 
