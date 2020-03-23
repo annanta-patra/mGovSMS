@@ -20,7 +20,7 @@ class CreateTSmsLogsTable extends Migration
             $table->text('txtSmsContent');
             $table->dateTime('dtmCreatedOn');
             $table->boolean('booleanStatus');
-            $table->json('txtStatus');
+            $table->text('txtStatus');
         });
     }
 
